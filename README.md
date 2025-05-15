@@ -1,6 +1,7 @@
 # Grading System 
 
-A simple grading system that allows Admins to create users, courses, enroll and remove students on courses and allow teachers to assign grades to students and for students to view them
+A straightforward grading system that enables Admins to manage users, create courses, enroll and remove students, and allows teachers to assign grades to students. 
+Students can also view their grades within the system
 
 # Project Setup Instructions
 
