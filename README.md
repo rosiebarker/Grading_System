@@ -1,27 +1,26 @@
-Prerequisites
-To run this project locally on your system, you will need the following:
+# Grading System 
 
-XAMPP (or another local web server solution like WAMP, MAMP, etc.)
+A simple grading system that allows Admins to create users, courses, enroll and remove students on courses and allow teachers to assign grades to students and for students to view them
 
-XAMPP is a free and open-source cross-platform web server solution stack package, which includes:
+# Project Setup Instructions
 
-Apache: The web server.
+## Requirements 
+- XAMPP (Apache, MySQL, PHP)
+- Visual Studio Code
 
-MySQL: The database server.
+## Steps to Run Locally
+- Install XAMPP
+- Open the XAMPP Control Panel.
+- Start both Apache (Web Server) and MySQL (Database Server). Click "Admin" on MySQL
+- Download/Clone this Repository
+- Copy the grading_system project folder into the htdocs directory inside your XAMPP installation. (e.g.) Windows: C:\xampp\htdocs\
+- (Mac/Linux) /Applications/XAMPP/htdocs/
+- Open phpMyAdmin at http://localhost/phpmyadmin/.
+- Create a new database called grading_system
+- Import the database file thats in the repository (.sql)
+- Access the Project, open your browser and go to: http://localhost/grading_system/login.php
 
-PHP: The programming language used for this project.
-
-phpMyAdmin: A web interface for MySQL database management.
-
-Steps to Run the System Locally
-1. Install XAMPP
-Download XAMPP: Go to the XAMPP official website and download the version appropriate for your operating system.
-
-Install XAMPP: Follow the instructions on the website to install XAMPP on your computer.
-
-2. Start Apache and MySQL
-Open the XAMPP Control Panel.
-
-Start the Apache (web server) and MySQL (database server) services.
-
-Ensure both services are running. You should see a green "Running" status next to each service in the XAMPP control panel.
+## Additional Notes
+- Admin login admin@hotmail.com password: Password123
+- All password accounts set to Password123
+- Ensure XAMPP is running whenever you try to access the project.
