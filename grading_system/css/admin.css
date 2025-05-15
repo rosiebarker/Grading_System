@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.form-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.form-container {
+  text-align: center;
+  flex: 1;
+  min-width: 300px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container input,
+.form-container textarea {
+  width: 250px;
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #003268;
+  color: #ffffff;  
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none; 
+  margin-top: 10px;
+}
+
+.form-container button:hover {
+  background-color: #004288;
+}
+
+
+.bttn-standard {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #003268;
+  color: #ffffff;  
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none; 
+  margin-top: 10px;
+}
+
+.bttn-standard:hover {
+  background-color: #004288;  
+  color: #fff; 
+}
+
+.bttn-standard:link,
+.bttn-standard:visited {
+  color: #fafafa;  
+}
+
+/*courses*/
+.course {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.course-card {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.course-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+
+/* Container for success message */
+.success-container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.success-container h1 {
+  color: #003268;
+  margin-bottom: 10px;
+}
+
+.success-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.success-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #003268;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.success-link:hover {
+  background-color: #004288;
+}
+
+.input-standard {
+  width: 250px;
+  margin: 10px auto;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/*reset password page*/
+
+.reset-password-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.reset-password-form h2 {
+  margin-bottom: 20px;
+  color: #003268;
+}
+
+.reset-password-form input,
+.reset-password-form textarea {
+  width: 250px;
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reset-password-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #003268;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.reset-password-form button:hover {
+  background-color: #004288;
+}
+
+.pass-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+  margin: 10px auto;
+}
+
+.pass-wrapper input {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.pass-reset-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.pass-dropdown-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pass-dropdown-group {
+    margin-bottom: 20px;
+}
+
+.pass-dropdown-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.pass-dropdown-group select,
+.pass-dropdown-group button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.pass-dropdown-group button {
+  background-color: #003268;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pass-dropdown-group button:hover {
+  background-color: #004288;
+}
